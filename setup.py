@@ -7,8 +7,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     name="asl5000-utils",
-    version="0.1",
-    scripts=["asl.py"],
+    version="0.2",
     author="deplanty",
     description="A toolbox to extract data from the ASL5000",
     long_description=long_description,
@@ -17,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Licence :: OSI Approved :: GNU General Public Licence v3 (GPLv3)",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent"
     ]
 )
