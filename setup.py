@@ -7,12 +7,12 @@ with open("README.md") as f:
 
 setuptools.setup(
     name="asl5000-utils",
-    version="0.2",
+    version="0.0.1",
     author="deplanty",
     description="A toolbox to extract data from the ASL5000",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/deplanty/asl5000-utils",
+    url="https://github.com/deplanty/asl5000_utils",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
