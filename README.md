@@ -41,6 +41,7 @@ time_label = labels[0]
 curves = [1, 6, 2]  # Paw, Volume, Pmus
 
 fig, ax = plt.subplots(len(curves), 1, sharex=True)
+plt.title("Example: visualizing the rwb data using matplotlib")
 for i, index in enumerate(curves):
     ax[i].plot(time, array[index])
     ax[i].set_ylabel(labels[index])
@@ -51,4 +52,6 @@ for a in ax:
 plt.show()
 ```
 
-In the same way, you can use `asl.read_avb` or `asl.read_brb` to read `data/simulation.avb` or `data/simuation.brb`.
+In the same way, you can use `asl.read_avb` or `asl.read_brb` to read `data/simulation.avb` or `data/simulation.brb`.
+
+![Graph_RWB](images/graph_rwb.png)
