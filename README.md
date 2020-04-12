@@ -1,6 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/asl5000-utils.svg)](https://badge.fury.io/py/asl5000-utils)
 
-# asl-utils
+# asl5000-utils
 
 A bunch of functions to extract data from the ASL 5000.
 
